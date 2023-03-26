@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\CampBenefit;
 
 class CampBenefitTableSeeder extends Seeder
 {
@@ -55,5 +56,9 @@ class CampBenefitTableSeeder extends Seeder
                 'name' => 'backend three',
             ],
         ];
+
+        foreach ($campBenefits as $key => $campBenefit) {
+            CampBenefit::create($campBenefit);
+        }
     }
 }
