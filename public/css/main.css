@@ -61,14 +61,16 @@ body {
 .login-user .left {
   background-color: #4D1CAB;
   width: 50%;
-  min-height: 900px;
+  min-height: 627px;
   text-align: center;
   float: left;
 }
 
 .login-user .left img {
-  margin-top: 200px;
+  margin-top: 35px;
   height: 540px;
+  width: 680px;
+  /* border: 1px solid red; */
 }
 
 .testimonials {
